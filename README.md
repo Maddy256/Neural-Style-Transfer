@@ -74,13 +74,6 @@ Each layer contributes different levels of detail, from fine textures in lower l
 abstract patterns in higher layers. This multi-scale approach helps in capturing a 
 comprehensive style representation .
  *  **Balancing:** The weight assigned to style loss determines how much the generated 
-image will adopt the style of the style image.
-import streamlit as st
-import tensorflow as tf
-import numpy as np
-import PIL.Image
-import matplotlib.pyplot as plt
-import time
 
 
  
